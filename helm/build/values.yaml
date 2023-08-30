@@ -1,0 +1,15 @@
+app:
+  name: rachana-poi-backend-app
+  namespace: rachana
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/rachana-backend
+  org: rhdh-deploy
+  name: rachana-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rachana/poi-backend-app
+  tag: latest
